@@ -16,16 +16,15 @@
 - Data sets link: [link](https://www.dropbox.com/sh/1dojygynitafqid/AAA0xko654RyJbmyLk3kgGH6a?dl=0)
   - Newsfeed14 [source](https://github.com/Priberam/news-clustering/blob/master/download_data.sh)
   - WCEP18/19 [source](https://github.com/complementizer/wcep-mds-dataset)
-  - USNews22 - included in the link
+  - USNews (case study) - included in the link
 
 ### Preprocessing
-1. Download the raw Newsfeed14, WCEP18/19, and USNews22 data sets in the above link
-2. Or, prepare your own data set ('.csv','.json',..) where the row format is ['title', 'date', 'text', 'id', 'story' (if available)]
-3. Run Dataset_preprocessing.ipynb 
+1. Download the raw data sets in the above link, or you can prepare your own data set ('.csv','.json',..) where the row format is ['title', 'date', 'text', 'id', 'story' (if available)]
+3. Run Dataset_preprocessing.ipynb to preprocess the data set
 
 ## USTORY usage
 ### Parameters
-- file_path: the path to a data set file
+- file_path: the path to a preprocessed data set file
 - window_size: the size of window in desired time units (e.g., days) - default = 7
 - slide_size: the size of slide in desired time units (e.g., days) - default = 1
 - num_windows: the total number of windows to evaluate - default = 365
