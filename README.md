@@ -28,7 +28,7 @@
 - window_size: the size of window in desired time units (e.g., days) - default = 7
 - slide_size: the size of slide in desired time units (e.g., days) - default = 1
 - num_windows: the total number of windows to evaluate - default = 365
-- min_articles: the minimum number of articles to form a story (e.g., 8 for Newsfeed14 and 18 for WCEP18/19 and USNews22 by default)
+- min_articles: the minimum number of articles to form a story (e.g., 8 for Newsfeed14 and 18 for WCEP18/19 and USNews by default)
 - N: the number of thematic keywords - default = 10
 - T: the temperature for scaling the confidence score - default: 2
 - keyword_score: the type of keyword score function in ["tfidf", "bm25"] - default = "tfidf"
