@@ -13,7 +13,7 @@
 
 ## Data sets
 ### Raw data sets (before preprocessed)
-- Data sets link: [link](https://www.dropbox.com/sh/1dojygynitafqid/AAA0xko654RyJbmyLk3kgGH6a?dl=0)
+- Data sets link: [link](https://drive.google.com/drive/folders/1e-Elc2LRE_0oLb4_gTX75AlAU5DwRh0I?usp=drive_link)
   - Newsfeed14 [source](https://github.com/Priberam/news-clustering/blob/master/download_data.sh)
   - WCEP18/19 [source](https://github.com/complementizer/wcep-mds-dataset)
   - USNews (case study) - included in the link
